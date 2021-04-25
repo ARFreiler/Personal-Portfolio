@@ -50,6 +50,7 @@ p {
     color: rgba(118, 58, 62);
     font-family: 'Esteban', serif;
     font-size: 18px;
+    width: 1000px;
 }
 
 .container {
@@ -61,7 +62,7 @@ p {
 }
 
 img {
-    width: auto;
+    width: 1000px;
     border: solid 2px rgba(140, 134, 84);
     margin-bottom: 30px;
 }
