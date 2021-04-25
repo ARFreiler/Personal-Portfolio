@@ -1,0 +1,80 @@
+body {
+    background: url(Images/fence.jpg) no-repeat center center fixed;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flexbox;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    margin: 30px;
+}
+
+img {
+    height: 220px;
+    width: auto;
+    border-radius: 50%;
+    border: solid 2px rgba(118, 58, 62);
+}
+
+h1 {
+    margin-left: 30px;
+    color: rgba(118, 58, 62);
+    font-family: 'Esteban', serif;
+}
+
+h1::first-letter {
+    text-decoration: underline;
+    text-decoration-color: rgba(140, 134, 84);
+    font-family: 'Esteban', serif;
+}
+
+p {
+    margin-left: 30px;
+    color: rgba(118, 58, 62);
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'Esteban', serif;
+}
+
+li {
+    display: inline;
+    float: right;
+}
+
+/* li:hover {
+    color: rgba(140, 134, 84);
+} */
+
+a {
+    padding: 20px;
+    font-size: 20px;
+    color: rgba(118, 58, 62);
+    font-weight: bold;
+    font-family: 'Esteban', serif;
+}
+
+/* a:hover {
+    color: rgba(140, 134, 84);
+} */
+
+nav {
+    flex-direction: row;
+    margin-left: auto;
+}
+
+#bio {
+    display: flex;
+    width: 50%;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    color: rgba(118, 58, 62);
+    font-size: 25px;
+    line-height: 175%;
+    font-weight: bold;
+    font-family: 'Esteban', serif;
+}
