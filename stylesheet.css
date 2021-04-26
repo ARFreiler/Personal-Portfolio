@@ -78,3 +78,15 @@ nav {
     font-weight: bold;
     font-family: 'Esteban', serif;
 }
+
+@media (min-device-width:375px) {
+    img[data-src-375px] {
+        content: attr(data-src-375px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}

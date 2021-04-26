@@ -66,3 +66,15 @@ i {
 i:hover {
     color: rgba(140, 134, 84);
 }
+
+@media (min-device-width:375px) {
+    img[data-src-375px] {
+        content: attr(data-src-375px, url);
+    }
+}
+
+@media (min-device-width:800px) {
+    img[data-src-800px] {
+        content: attr(data-src-800px, url);
+    }
+}
